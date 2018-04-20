@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="18088c17-8437-42dc-bca2-bab4f12bd340"
+mode="Desktop"
+rxversion="8.1">
+	<name>
+		RunWebApplication
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RunWebApplication"
+	namespace="TeamCity_Automation.Web">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com/web-testing-examples/vip/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="6684a80c-c472-43ef-b1e8-415305556c90"
+	name="TeamCity_AutomationRepository"
+	relativepath="..\TeamCity_AutomationRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="TeamCity_AutomationRepository"
+		namespace="TeamCity_Automation">
+		</codegen>
+		<rootfolder
+		id="829f5598-ff9a-4dd5-a51f-d1ff973eaa22"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RunWebApplication.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

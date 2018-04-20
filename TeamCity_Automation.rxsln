@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 8.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCity_Automation", "TeamCity_Automation\TeamCity_Automation.csproj", "{4CCD3BC6-7C27-4CF0-86A7-63ED18927E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3234207A-EBF1-4C5E-967C-D987EEC8D793}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCD3BC6-7C27-4CF0-86A7-63ED18927E3B}.Debug|x86.Build.0 = Debug|x86
+		{4CCD3BC6-7C27-4CF0-86A7-63ED18927E3B}.Debug|x86.ActiveCfg = Debug|x86
+		{4CCD3BC6-7C27-4CF0-86A7-63ED18927E3B}.Release|x86.Build.0 = Release|x86
+		{4CCD3BC6-7C27-4CF0-86A7-63ED18927E3B}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

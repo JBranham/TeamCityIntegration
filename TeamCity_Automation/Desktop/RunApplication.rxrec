@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bc0cd029-40dd-4a5e-b591-43da51864de0"
+mode="Desktop"
+rxversion="8.1">
+	<name>
+		RunApplication
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RunApplication"
+	namespace="TeamCity_Automation.Desktop">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Users\jbranham\Desktop\Training Programs\VipV1.exe
+			</filename>
+			<workingdir>
+				C:\Users\jbranham\Desktop\Training Programs
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="6684a80c-c472-43ef-b1e8-415305556c90"
+	name="TeamCity_AutomationRepository"
+	relativepath="..\TeamCity_AutomationRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="TeamCity_AutomationRepository"
+		namespace="TeamCity_Automation">
+		</codegen>
+		<rootfolder
+		id="829f5598-ff9a-4dd5-a51f-d1ff973eaa22"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RunApplication.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
