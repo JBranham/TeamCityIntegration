@@ -38,7 +38,7 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<filename>
-				..\..\VipV1.exe
+				..\..\TeamCity_Automation\VipV1.exe
 			</filename>
 			<workingdir>
 				..\..\
