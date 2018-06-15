@@ -38,10 +38,10 @@ rxversion="8.1">
 			<bindings>
 			</bindings>
 			<filename>
-				C:\Users\jbranham\Desktop\Training Programs\VipV1.exe
+				..\..\VipV1.exe
 			</filename>
 			<workingdir>
-				C:\Users\jbranham\Desktop\Training Programs
+				..\..\
 			</workingdir>
 			<args>
 			</args>

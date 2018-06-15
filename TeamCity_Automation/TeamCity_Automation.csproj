@@ -254,6 +254,9 @@
       <repoid>6684a80c-c472-43ef-b1e8-415305556c90</repoid>
       <reporootid>829f5598-ff9a-4dd5-a51f-d1ff973eaa22</reporootid>
     </None>
+    <None Include="VipV1.exe">
+      <id>3a2e1d64-4e83-44f5-9d3f-159a85d49906</id>
+    </None>
     <None Include="Web\AddUser.rxrec">
       <BoundTo>15478f22-1ecf-48a6-8ea6-38626ee902aa</BoundTo>
       <id>1e2ebbdc-ad83-4bec-8515-b5a1b1dff641</id>
