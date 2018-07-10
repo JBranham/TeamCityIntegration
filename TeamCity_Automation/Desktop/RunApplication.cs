@@ -80,7 +80,7 @@ namespace TeamCity_Automation.Desktop
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Run application '..\\..\\TeamCity_Automation\\VipV1.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("..\\..\\TeamCity_Automation\\VipV1.exe", "", "..\\..\\", false);
+            Host.Local.RunApplication("C:\\Ranorex\\VipV1.exe", "", "", false);
             Delay.Milliseconds(0);
             
         }
