@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <modulegroupdoc
-rxversion="8.1">
-  <testsuiteentryhierarchy>
-    <flatlistofchildren>
-      <modulegroups
-      name="TeamCity_Automation"
-      id="c7df15fa-9507-4d26-b5cc-1503d6610708"/>
-    </flatlistofchildren>
-    <childhierarchy>
-      <modulegroups
-      name="TeamCity_Automation"
-      id="c7df15fa-9507-4d26-b5cc-1503d6610708"/>
-    </childhierarchy>
-  </testsuiteentryhierarchy>
+rxversion="8.3">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="c7df15fa-9507-4d26-b5cc-1503d6610708"
+			name="TeamCity_Automation">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="c7df15fa-9507-4d26-b5cc-1503d6610708"
+			name="TeamCity_Automation">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
 </modulegroupdoc>

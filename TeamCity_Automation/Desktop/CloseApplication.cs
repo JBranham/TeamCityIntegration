@@ -30,9 +30,9 @@ namespace TeamCity_Automation.Desktop
     public partial class CloseApplication : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the TeamCity_Automation.TeamCity_AutomationRepository repository.
+        /// Holds an instance of the global::TeamCity_Automation.TeamCity_AutomationRepository repository.
         /// </summary>
-        public static TeamCity_Automation.TeamCity_AutomationRepository repo = TeamCity_Automation.TeamCity_AutomationRepository.Instance;
+        public static global::TeamCity_Automation.TeamCity_AutomationRepository repo = global::TeamCity_Automation.TeamCity_AutomationRepository.Instance;
 
         static CloseApplication instance = new CloseApplication();
 
@@ -58,7 +58,7 @@ namespace TeamCity_Automation.Desktop
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,7 +70,7 @@ namespace TeamCity_Automation.Desktop
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;

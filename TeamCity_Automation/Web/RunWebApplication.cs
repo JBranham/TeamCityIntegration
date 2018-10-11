@@ -30,9 +30,9 @@ namespace TeamCity_Automation.Web
     public partial class RunWebApplication : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the TeamCity_Automation.TeamCity_AutomationRepository repository.
+        /// Holds an instance of the global::TeamCity_Automation.TeamCity_AutomationRepository repository.
         /// </summary>
-        public static TeamCity_Automation.TeamCity_AutomationRepository repo = TeamCity_Automation.TeamCity_AutomationRepository.Instance;
+        public static global::TeamCity_Automation.TeamCity_AutomationRepository repo = global::TeamCity_Automation.TeamCity_AutomationRepository.Instance;
 
         static RunWebApplication instance = new RunWebApplication();
 
@@ -58,7 +58,7 @@ namespace TeamCity_Automation.Web
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,7 +70,7 @@ namespace TeamCity_Automation.Web
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -79,8 +79,8 @@ namespace TeamCity_Automation.Web
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.ranorex.com/web-testing-examples/vip/' with browser 'IE' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.ranorex.com/web-testing-examples/vip/", "IE", "", false, false, false, false, false);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.ranorex.com/web-testing-examples/vip/' with browser 'IE' in normal mode .", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://www.ranorex.com/web-testing-examples/vip/", "IE", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

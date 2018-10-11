@@ -22,7 +22,7 @@ namespace TeamCity_Automation
     /// <summary>
     /// The class representing the TeamCity_AutomationRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
     [RepositoryFolder("829f5598-ff9a-4dd5-a51f-d1ff973eaa22")]
     public partial class TeamCity_AutomationRepository : RepoGenBaseFolder
     {
@@ -87,7 +87,7 @@ namespace TeamCity_Automation
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
     public partial class TeamCity_AutomationRepositoryFolders
     {
         /// <summary>
